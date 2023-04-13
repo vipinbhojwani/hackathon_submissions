@@ -1,0 +1,39 @@
+Objective:
+Create a submissions app where one can submit their hackathon submissions & see the list. 
+
+Context: Imagine you are working for an Edtech company and you are asked to create a simple Hackathon hosting application.
+The hackathon can be posted by anyone and they will be authorized before they are allowed to post hackathons. Users should be able to come and submit some code or files as hackathon submissions. 
+
+Design Link: 
+The design can be used as a reference while developing APIs.
+https://www.figma.com/file/g54nwEVAl7gk74U4uEjYmD/AI-Planet-Intern-Hiring-Assignment?node-id=0%3A1&t=gWgTJX6HEAF6JgK1-1
+
+Prototype Link:-
+https://www.figma.com/proto/g54nwEVAl7gk74U4uEjYmD/AI-Planet-Intern-Hiring-Assignment?node-id=7%3A688&scaling=min-zoom&page-id=7%3A301&starting-point-node-id=7%3A688
+
+
+Application Overview:
+You have to develop APIs to 
+Create hackathons by authorized users only. All the hackathons should have some basic fields like 
+Title
+description
+Background image
+Hackathon image
+type of submission - Only one of these types should be selected while creating the hackathon - image, file or a link. You can assume that this field cannot be changed after the hackathon has started.
+Start datetime
+End datetime
+Reward prize
+
+Listing of hackathons
+Register to a hackathon
+Make Submissions
+Submissions should contain the following information
+A name for the submission
+Summary of the submission
+Submission - Based on the type of submission mentioned above, submissions should be accepted. API should validate it.
+Users should be able to list the hackathons they are enrolled to
+Users should be able to view their submissions in the hackathon they were enrolled in.
+
+What technologies/frameworks/libraries to use?
+Use Python with any framework of your choice - Django, Django Rest Framework, FastAPI, Flask, but we would recommend you to use Django and Django Rest Framework. Feel free to use any other libraries with them.
+Use database of your choice - MySQL, PostgresQL
